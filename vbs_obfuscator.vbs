@@ -1,3 +1,4 @@
+' https://isvbscriptdead.com/vbs-obfuscator/
 Option Explicit
 
 Function vbs_obfuscator(n)

@@ -1,4 +1,4 @@
-# VBScript Obfuscator in VBScript
+# VBScript Obfuscator/Defuscator in VBScript
 The VBScript Obfuscator written in [VBScript](https://isvbscriptdead.com/vbs-obfuscator/)
 
 # How to Use?

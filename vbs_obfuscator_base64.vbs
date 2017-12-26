@@ -1,3 +1,10 @@
+' Example
+' Source:  msgbox "Hello, @justyy"
+' Obfuscated: 
+'    Function l(a): With CreateObject("Msxml2.DOMDocument").CreateElement("aux"): .DataType = "bin.base64": .Text = a: l = r(.NodeTypedValue): End With: End Function
+'    Function r(b): With CreateObject("ADODB.Stream"): .Type = 1: .Open: .Write b: .Position = 0: .Type = 2: .CharSet = "utf-8": r = .ReadText: .Close:  End With: End function
+'    Execute l("TXNnQm94ICJIZWxsbywgQGp1c3R5eSI=")
+
 ' https://isvbscriptdead.com/vbs-obfuscator/
 Option Explicit
 
